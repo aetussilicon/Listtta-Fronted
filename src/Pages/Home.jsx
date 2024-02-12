@@ -1,9 +1,11 @@
+import '../Styles/css/Home.css';
+
 export default function Home() {
     return (
         <>
             <section className="main-banner">
                 <div className="introduction">
-                    <h1>Venha fazer parte desta revolução na tatuagem e piercing</h1>
+                    <h1>Venha fazer parte desta revolução na <span>tatuagem</span> e <span>piercing</span></h1>
                 </div>
                 <div className="introduction-card">
                     <h1>Cadastre-se</h1>
@@ -14,7 +16,7 @@ export default function Home() {
             </section>
             <section className="main-content">
                 <div className="partners-section">
-                    <p>Nossos parceiros</p>
+                    <p>Nossos parceiros:</p>
                     <div className="partners">
                         <img src="assets/imgs/MonoLogo.png" alt="listtta" />
                         <img src="assets/imgs/MonoLogo.png" alt="listtta" />
