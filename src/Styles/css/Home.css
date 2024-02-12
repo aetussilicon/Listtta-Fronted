@@ -1,83 +1,173 @@
 :root {
-    /* Colors */
-    --white-text: #ffffff;
-    --span-red-color: #ff073b;
-    --grey-text: #c3c4c6;
+  /* Colors */
+  --white-text: #ffffff;
+  --span-red-color: #ff073b;
+  --grey-text: #c3c4c6;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 20%;
+}
+
+.introduction-container {
+  display: flex;
+  gap: 200px;
 }
 
 .main-banner {
-    height: 500px;
-    background-image: url(assets/imgs/MainBanner.png);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  height: 500px;
+  background-image: url(assets/imgs/MainBanner.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
 }
 
 .main-banner h1 {
-    color: #ffffff;
-    font-size: 43px;
-    font-weight: 800;
-    width: 400px;
+  color: #ffffff;
+  font-size: 43px;
+  font-weight: 800;
+  width: 400px;
 }
 
 .main-banner span {
-    color: var(--span-red-color);
+  color: var(--span-red-color);
 }
 
 .introduction-card {
-    background-color: #0a101f;
-    border-radius: 10px;
-    padding: 20px;
-    width: 430px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  background-color: #0a101f;
+  border-radius: 10px;
+  padding: 20px;
+  width: 430px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .introduction-card h1 {
-    font-size: 40px;
-    height: auto;
+  font-size: 40px;
+  height: auto;
 }
 
-.introduction-card  p {
-    color: var(--white-text);
+.introduction-card p {
+  color: var(--white-text);
+}
 
+.btn {
+  background-color: #ff083b;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--white-text);
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
 }
 
 .introduction-card button {
-    background-color: #ff083b;
-    border: none;
-    width: 400px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--white-text);
-    font-size: 18px;
-    padding: 10px 15px;
-    border-radius: 50px;
-    font-weight: 600;
-    margin-top: 30px;
-    cursor: pointer;
+  width: 400px;
 }
 
 .main-content {
-
 }
 
-.partners-section {
-    display: flex;
-    height: 80px;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    background-color: #f4f4f4;
-    color: var(--grey-text);
+.partners-section-container {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: #f4f4f4;
+  color: var(--grey-text);
+  margin: 0;
 }
 
 .partners {
+  display: flex;
+  gap: 40px;
+}
+
+.how-it-works-section-content {
+  display: flex;
+  align-items: center;
+}
+
+.how-it-works-section-content h1 {
+  font-size: 37px;
+  line-height: 1.2cm;
+  margin-top: 10px;
+}
+
+.how-it-works-section-content span {
+  color: var(--span-red-color);
+}
+
+.how-it-works-section-content p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.how-it-works-section-content img {
+  margin-left: 15px;
+}
+
+.how-it-works-section-content button {
+  width: 230px;
+  padding: 15px 10px;
+}
+
+.how-it-works-card {
+    background-image: url(assets/imgs/RegisterBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 30px;
+}
+
+.how-it-works-card h1 {
+    color: var(--white-text);
+    font-size: 40px;
+    width: 500px;
+}
+
+.how-it-works-card p {
+    color: var(--white-text);
+}
+
+.how-it-works-card button {
+    width: 200px;
+    padding: 15px 10px;
+}
+
+.block-text-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.block-text-bottom h1 {
+    width: 750px;
+    font-size: 30px;
 }
