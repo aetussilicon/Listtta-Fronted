@@ -1,11 +1,13 @@
 import '../Styles/css/Home.css';
 import BlogPost from '../components/BlogPost';
 import PageFooter from '../components/PageFooter';
+import PageHeader from '../components/PageHeader';
 
 export default function Home() {
     return (
         <>
             <section className="main-banner">
+                <PageHeader />
                 <div className='container introduction-container'>
                     <div className="introduction">
                         <h1>Venha fazer parte desta revolução na <span>tatuagem</span> e <span>piercing</span></h1>

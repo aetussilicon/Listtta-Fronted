@@ -8,6 +8,10 @@ footer {
     background-color: #ff083b;
 }
 
+.footer-container {
+    margin-bottom: 20px;
+}
+
 .footer-container img {
     margin: 20px 0;
 }
@@ -87,4 +91,20 @@ footer {
 .footer-footer a {
     color: var(--white-text);
     text-decoration: none;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+}
+
+.social-media-icons a {
+    margin-top: 5px;
+}
+
+.social-icon img {
+    margin: 0;
+    height: auto;
+    cursor: pointer;
 }

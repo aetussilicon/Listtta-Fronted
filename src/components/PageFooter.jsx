@@ -22,8 +22,12 @@ export default function PageFooter() {
                             <div className='footer-info-block'>
                                 <span className='bold'>Siga-nos</span>
                                 <div className='social-media-icons'>
-                                    <Link>Como Funciona</Link>
-                                    <Link>Como Funciona</Link>
+                                    <Link className='social-icon'>
+                                        <img src='assets/icons/mono-instagram.svg'/>
+                                    </Link>
+                                    <Link className='social-icon'>
+                                        <img src='assets/icons/mono-facebook.svg'/>
+                                    </Link>
                                 </div>
                             </div>
                             <div className='footer-info-block'>
@@ -39,7 +43,7 @@ export default function PageFooter() {
                         <span>© 2024 Listtta</span>
                         <ul>
                             <li className='dash'><Link>Termos de uso</Link></li>
-                            <li><Link>Política de privacidade</Link></li>
+                            <li><Link>Política de privacida</Link></li>
                             <li><Link>Política de cookies</Link></li>
                             <li><Link>LGPD</Link></li>
                         </ul>
