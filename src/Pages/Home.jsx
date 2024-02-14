@@ -1,5 +1,6 @@
 import '../Styles/css/Home.css';
 import BlogPost from '../components/BlogPost';
+import PageFooter from '../components/PageFooter';
 
 export default function Home() {
     return (
@@ -92,6 +93,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <PageFooter />
         </>
     );
 }
