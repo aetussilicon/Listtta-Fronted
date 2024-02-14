@@ -1,0 +1,35 @@
+.card-area {
+    width: 350px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.card-area img {
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-card-info {
+    padding: 20px;
+} 
+
+.blog-card-info h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.blog-card-info h3, p {
+    margin-bottom: 10px;
+}
+
+.blog-card-info p {
+    width: 280px;
+    text-align: justify;
+}
+
+.blog-card-info a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 600;
+}
