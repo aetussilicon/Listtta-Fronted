@@ -1,4 +1,5 @@
 import '../Styles/css/Home.css';
+import BlogPost from '../components/BlogPost';
 
 export default function Home() {
     return (
@@ -49,6 +50,45 @@ export default function Home() {
                     </div>
                     <div className="block-text-bottom">
                         <h1>Você tatuador não paga nada para fazer parte da LISTTTA. Você cliente não paga nad apara buscar seu artista.</h1>
+                    </div>
+                </div>
+            </section>
+            <section className='search-section'>
+                <div className='container search-container '>
+                    <div className='search-container-text'>
+                        <span>Buscador</span>
+                        <h1>Encontre seu tatuador ou piercer</h1>
+                    </div>
+                    <form action='#' method='#'>
+                        <ul>
+                            <li>
+                                <input type='text' id='location' name='location' placeholder='Cidade, estado, cep...' />
+                            </li>
+                            <li>
+                                <input type='text' id='type' name='type' placeholder='Tatuador ou piercer' />
+                            </li>
+                            <li>
+                                <button className='btn search-button' type='submit'>Buscar Profissional</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+            <section className='blog-section'>
+                <div className='container blog-container'>
+                    <div className='blog-top-row'>
+                        <div className='blog-top-row-news'>
+                            <span>Blog</span>
+                            <h1>Últimas notícias</h1>
+                        </div>
+                        <div className='spliter' />
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                        <button className='btn see-toppics'>Veja todos os artigos</button>
+                    </div>
+                    <div className='post-cards'>
+                        <BlogPost />
+                        <BlogPost />
+                        <BlogPost />
                     </div>
                 </div>
             </section>
